@@ -44,24 +44,20 @@ public class OurStrategyManager {
     }
 
     private static AStrategy initForZerg() {
-//        if (Enemy.protoss()) {
-////            return ZergStrategies.ZERG_2_Hatch_Hydra_vP;
-////            return ZergStrategies.ZERG_9_Pool_vP;
-//            return ZergStrategies.ZERG_My_Test_build;
-//        }
-//        else if (Enemy.terran()) {
-////            return ZergStrategies.ZERG_9_Pool_vT;
-//            return ZergStrategies.ZERG_My_Test_build;
-//        }
-//        else {
-////            return ZergStrategies.ZERG_9_Pool_vZ;
-//            return ZergStrategies.ZERG_My_Test_build;
-//        }
+        if (Enemy.protoss()) {
+//            return ZergStrategies.ZERG_2_Hatch_Hydra_vP;
+            return ZergStrategies.ZERG_9_Pool_vP;
+        }
+        else if (Enemy.terran()) {
+            return ZergStrategies.ZERG_9_Pool_vT;
+        }
+        else {
+            return ZergStrategies.ZERG_9_Pool_vZ;
+        }
 
 //        return ZergStrategies.ZERG_2_Hatch_Hydra_vP;
 //        return ZergStrategies.ZERG_13_Pool_Muta;
 //        return ZergStrategies.ZERG_12_Hatch_vZ;
-        return ZergStrategies.ZERG_My_Test_build;
     }
 
 }
