@@ -1,0 +1,31 @@
+// === CUSTOMIZABLE VARIABLES =========================================
+
+// Which worker (1st, 8th etc) should scout and try to find enemy base
+#SCOUT_IS_NTH_WORKER=9
+
+// When supply is bigger than N, then start auto-producing supply units
+#AUTO_SUPPLY_MANAGER_WHEN_SUPPLY_EXCEEDS=15
+
+// === Raw build order used - taken from Liquipedia or so =============
+
+/**
+I'm just test things out.
+*/
+
+// === Build order for Atlantis =======================================
+
+@ - Name - Modifier
+7 - Extractor
+8 - Spawning Pool
+9 - Overlord
+11 - Hydralisk Den
+//16 - Hydralisk
+//12 - Hatchery - NATURAL
+13 - Lair
+14 - Zerglings
+15 - Lurker Aspect
+20 - Hydralisk
+25 - Lurker
+30 - Hatchery - NATURAL
+
+
