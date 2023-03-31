@@ -10,6 +10,7 @@ public class ZergStrategies extends AStrategy {
     public static final AStrategy ZERG_9_Pool_vP = new AStrategy();
     public static final AStrategy ZERG_9_Pool_vT = new AStrategy();
     public static final AStrategy ZERG_9_Pool_vZ = new AStrategy();
+    public static final AStrategy ZERG_My_Test_Build = new AStrategy();
 
     // Cheese
     public static final AStrategy ZERG_4_Pool = new AStrategy();
@@ -38,6 +39,10 @@ public class ZergStrategies extends AStrategy {
         ZERG_9_Pool_vT.setZerg().setName("9 Pool vT").setGoingRush();
 
         ZERG_9_Pool_vZ.setZerg().setName("9 Pool vZ").setGoingRush();
+
+        ZERG_My_Test_Build.setZerg().setName("My Test Build")
+                .setGoingExpansion()
+                .setGoingRush();
 
         // === Cheese ========================================
         

@@ -6,6 +6,9 @@
 // When supply is bigger than N, then start auto-producing supply units
 #AUTO_SUPPLY_MANAGER_WHEN_SUPPLY_EXCEEDS=15
 
+// Max number of workers for workers auto-production to remain active
+#AUTO_PRODUCE_WORKERS_MAX_WORKERS=26
+
 // === Raw build order used - taken from Liquipedia or so =============
 
 /**
@@ -18,14 +21,23 @@ I'm just test things out.
 7 - Extractor
 8 - Spawning Pool
 9 - Overlord
+10 - Hatchery - @NATURAL
 11 - Hydralisk Den
-//16 - Hydralisk
-//12 - Hatchery - NATURAL
+16 - Hydralisk
+Creep Colony
+Creep Colony
+Sunken Colony
+Sunken Colony
+Metabolic Boost
 13 - Lair
 14 - Zerglings
-15 - Lurker Aspect
 20 - Hydralisk
-25 - Lurker
-30 - Hatchery - NATURAL
+25 - Muscular Augments
+30 - Grooved Spines
+40 - Queens Nest
+Hive
+Adrenal Glands
+
+
 
 
